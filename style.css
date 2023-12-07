@@ -22,16 +22,38 @@ body {
 .box-image {
     width: 400px;
     height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 50px;
     background-color: rgb(43, 43, 43);
     border-radius: 20px;
+}
+
+.box-image > img {
+    width: 90%;
+    height: auto;
+}
+
+.box-search {
+    position: relative;
+}
+
+.box-search i {
+    color: #bebebe;
+}
+
+.box-search label {
+    position: absolute;
+    top: 51px;
+    left: 15px;
 }
 
 .box-search input {
     width: 500px;
     height: 40px;
     margin-top: 40px;
-    padding-left: 20px;
+    padding-left: 40px;
     border-radius: 20px;
 }
 
